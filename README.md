@@ -11,7 +11,8 @@ MySQL/
 ├── person_info/      # 개인정보 테이블 기본 CRUD
 ├── school_student/   # 학교·학생 성적 DB (jsdb)
 ├── emp_dept/         # 사원·부서 예제 DB
-└── hospital/         # 병원·환자·진단 DB
+├── hospital/         # 병원·환자·진단 DB
+└── team_project/     # 팀 프로젝트 — 병원·환자·진단 DB 최종본
 ```
 
 ### person_info/
@@ -36,3 +37,8 @@ MySQL/
 | 파일 | 내용 |
 |---|---|
 | [05_hospital_patient_diagnosis.sql](hospital/05_hospital_patient_diagnosis.sql) | 병원·환자·진단 다대다 관계, GROUP_CONCAT |
+
+### team_project/
+| 파일 | 내용 |
+|---|---|
+| [hospital_patient_diagnosis_final.sql](team_project/hospital_patient_diagnosis_final.sql) | 병원·환자·진단 DB 팀 프로젝트 최종본 — 기본 조회, 집계·NULL 처리, 변수, 테이블 백업, 컬럼 추가·CASE/IF 상태 판정, 사용자 함수, 프로시저(IN/OUT), 뷰, 트랜잭션 ROLLBACK |
